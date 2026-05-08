@@ -120,7 +120,7 @@ export default function LeadDetails() {
                   ["Status", lead.status],
                   [
                     "Deal Value",
-                    `₹${Number(lead.deal_value || 0).toLocaleString()}`,
+                    `$${Number(lead.deal_value || 0).toLocaleString()}`,
                   ],
                 ].map(([label, value]) => (
                   <div key={label} className="rounded-2xl bg-brand-50 p-4">

@@ -107,7 +107,7 @@ export default function LeadFormModal({ open, onClose, onSave, initialData }) {
             <TextField
               fullWidth
               required
-              label="Estimated Deal Value (₹)"
+              label="Estimated Deal Value ($)"
               name="deal_value"
               type="number"
               value={form.deal_value}

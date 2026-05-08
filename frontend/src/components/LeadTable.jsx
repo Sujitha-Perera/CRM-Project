@@ -79,7 +79,7 @@ export default function LeadTable({
                   </Select>
                 </TableCell>
                 <TableCell>
-                  ₹{Number(lead.deal_value || 0).toLocaleString()}
+                  ${Number(lead.deal_value || 0).toLocaleString()}
                 </TableCell>
                 <TableCell align="right">
                   <Tooltip title="View">
